@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Tiger Beetle
+A11,Bengal Tiger
+A12,Jackrabbit
+A13,Serval
+A14,Bharal
+A15,Impala
+A16,Spinifex Hopping Mouse
+A17,9-Banded Armadillo
+A18,Markhor
+B11,Bulldog Bat
+B12,Flat-Headed Cat
+B13,Mink
+B14,Rakali
+B15,Moonrat
+B16,Water Oppossum
+B17,Aquatic Genet
+B18,Manatee
+C11,Zebra & Oxpecker
+C12,Aardvark & Aardvark Cucumber
+C13,Clown Fish & Sea Anenome
+C14,Fire Coral & Algae
+C15,Bornean Bat & Pitcher Plant
+C16,Burying Beetles & Phoretic Mites
+C17,Wattled Jacana & Capybara
+C18,Ants & Aphids
+D11,Tiger Beetle
+D12,Stonecat
+D13,Tiger Owl
+D14,Fisher Cat
+D15,Lion-Tailed Macaque
+D16,Leopard Frog
+D17,Green Catbird
+D18,Nimravid
+A21,Bengal Tiger
+A22,Serval
+A23,Impala
+A24,9-Banded Armadillo
+B21,Flat-Headed Cat
+B22,Rakali
+B23,Moonrat
+B24,Manatee
+C21,Aardvark & Aardvark Cucumber
+C22,Fire Coral & Algae
+C23,Burying Beetles & Phoretic Mites
+C24,Wattled Jacana & Capybara
+D21,Stonecat
+D22,Tiger Owl
+D23,Lion-Tailed Macaque
+D24,Green Catbird
+A31,Bengal Tiger
+A32,Impala
+B31,Rakali
+B32,Manatee
+C31,Fire Coral & Algae
+C32,Wattled Jacana & Capybara
+D31,Stonecat
+D32,Lion-Tailed Macaque
+Q1,Bengal Tiger
+Q2,Rakali
+Q3,Wattled Jacana & Capybara
+Q4,Lion-Tailed Macaque
+S1,Bengal Tiger
+S2,Wattled Jacana & Capybara
+F,Wattled Jacana & Capybara

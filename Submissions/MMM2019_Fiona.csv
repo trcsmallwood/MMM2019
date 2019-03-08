@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Ant Lion
+A11,Bengal Tiger
+A12,Springhare
+A13,Serval
+A14,Stoat
+A15,Impala
+A16,Spinner Dolphin
+A17,Sifaka
+A18,Markhor
+B11,Bulldog Bat
+B12,Flat-Headed Cat
+B13,Beaver
+B14,Rakali
+B15,Crab-Eating Fox
+B16,Lowland Tapir
+B17,Marine Otter
+B18,Manatee
+C11,Batfly & Gammaproteobacteria
+C12,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C13,Clown Fish & Sea Anenome
+C14,Wrasse & Moray Eel
+C15,Bornean Bat & Pitcher Plant
+C16,Burying Beetles & Phoretic Mites
+C17,Fork-Tailed Drongos & Sociable Weaver
+C18,Ants & Aphids
+D11,Sea Lion
+D12,Small Spotted Cat Shark
+D13,Tiger Owl
+D14,Tiger Salamander
+D15,Cat Snake
+D16,Bearcat
+D17,Tiger Quoll
+D18,Nimravid
+A21,Bengal Tiger
+A22,Serval
+A23,Impala
+A24,Sifaka
+B21,Bulldog Bat
+B22,Beaver
+B23,Lowland Tapir
+B24,Marine Otter
+C21,Batfly & Gammaproteobacteria
+C22,Wrasse & Moray Eel
+C23,Bornean Bat & Pitcher Plant
+C24,Fork-Tailed Drongos & Sociable Weaver
+D21,Small Spotted Cat Shark
+D22,Tiger Salamander
+D23,Bearcat
+D24,Tiger Quoll
+A31,Bengal Tiger
+A32,Impala
+B31,Bulldog Bat
+B32,Marine Otter
+C31,Batfly & Gammaproteobacteria
+C32,Bornean Bat & Pitcher Plant
+D31,Small Spotted Cat Shark
+D32,Bearcat
+Q1,Bengal Tiger
+Q2,Marine Otter
+Q3,Batfly & Gammaproteobacteria
+Q4,Bearcat
+S1,Bengal Tiger
+S2,Batfly & Gammaproteobacteria
+F,Bengal Tiger

@@ -6,7 +6,9 @@
 participants_df <- read.csv("../Submissions/Participants.csv", stringsAsFactors = F)
 
 #Select names of participants who have submitted brackets and paid
-participants <- participants_df$Participants[which(participants_df$Submitted == "Y" & participants_df$Paid == "Y")]
+participants <- participants_df$Participants[which(participants_df$Submitted == "Y")]# & participants_df$Paid == "Y")]
+
+#participants <- participants[which(participants != "Random")] #Remove randomised bracket 
 
 #Load in master bracket of results
 MMM_df <- read.csv("../Submissions/MMM2019_MASTER.csv", stringsAsFactors = F)
@@ -15,7 +17,7 @@ MMM_df <- read.csv("../Submissions/MMM2019_MASTER.csv", stringsAsFactors = F)
 for(p in 1:length(participants)){
   
   #Read .csv
-  tmp_predictions <- read.csv(paste("../Submissions/MMM2019_RESULTS_", participants[p], ".csv", sep = ""), stringsAsFactors = F)
+  tmp_predictions <- read.csv(paste("../Submissions/MMM2019_", participants[p], ".csv", sep = ""), stringsAsFactors = F)
   
   #Add predictions to dataframe
   MMM_df[,4+p] <- tmp_predictions$Prediction

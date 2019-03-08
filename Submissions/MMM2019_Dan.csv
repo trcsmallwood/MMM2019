@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Ant Lion
+A11,Bengal Tiger
+A12,Springhare
+A13,Rock Wallaby
+A14,Bharal
+A15,Klipspringer
+A16,Spinifex Hopping Mouse
+A17,9-Banded Armadillo
+A18,Markhor
+B11,Moose
+B12,Flat-Headed Cat
+B13,Beaver
+B14,Rakali
+B15,Moonrat
+B16,Lowland Tapir
+B17,Aquatic Genet
+B18,Vontsira
+C11,Zebra & Oxpecker
+C12,Aardvark & Aardvark Cucumber
+C13,Crab & Sea Turtle
+C14,Wrasse & Moray Eel
+C15,Bornean Bat & Pitcher Plant
+C16,Banded Mongoose & Warthog
+C17,Wattled Jacana & Capybara
+C18,Coyote & Badger
+D11,Ant Lion
+D12,Stonecat
+D13,Panther Chameleon
+D14,Fisher Cat
+D15,Cat Snake
+D16,Bearcat
+D17,Tiger Quoll
+D18,Nimravid
+A21,Bengal Tiger
+A22,Bharal
+A23,Klipspringer
+A24,9-Banded Armadillo
+B21,Moose
+B22,Rakali
+B23,Moonrat
+B24,Aquatic Genet
+C21,Aardvark & Aardvark Cucumber
+C22,Wrasse & Moray Eel
+C23,Banded Mongoose & Warthog
+C24,Wattled Jacana & Capybara
+D21,Stonecat
+D22,Panther Chameleon
+D23,Cat Snake
+D24,Nimravid
+A31,Bharal
+A32,9-Banded Armadillo
+B31,Moose
+B32,Moonrat
+C31,Aardvark & Aardvark Cucumber
+C32,Banded Mongoose & Warthog
+D31,Stonecat
+D32,Nimravid
+Q1,9-Banded Armadillo
+Q2,Moose
+Q3,Aardvark & Aardvark Cucumber
+Q4,Nimravid
+S1,Moose
+S2,Nimravid
+F,Moose

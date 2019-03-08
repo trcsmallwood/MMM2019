@@ -1,65 +1,65 @@
-Match,Prediction
-WC,<<INSERT>>
-A11,<<INSERT>>
-A12,<<INSERT>>
-A13,<<INSERT>>
-A14,<<INSERT>>
-A15,<<INSERT>>
-A16,<<INSERT>>
-A17,<<INSERT>>
-A18,<<INSERT>>
-B11,<<INSERT>>
-B12,<<INSERT>>
-B13,<<INSERT>>
-B14,<<INSERT>>
-B15,<<INSERT>>
-B16,<<INSERT>>
-B17,<<INSERT>>
-B18,<<INSERT>>
-C11,<<INSERT>>
-C12,<<INSERT>>
-C13,<<INSERT>>
-C14,<<INSERT>>
-C15,<<INSERT>>
-C16,<<INSERT>>
-C17,<<INSERT>>
-C18,<<INSERT>>
-D11,<<INSERT>>
-D12,<<INSERT>>
-D13,<<INSERT>>
-D14,<<INSERT>>
-D15,<<INSERT>>
-D16,<<INSERT>>
-D17,<<INSERT>>
-D18,<<INSERT>>
-A21,<<INSERT>>
-A22,<<INSERT>>
-A23,<<INSERT>>
-A24,<<INSERT>>
-B21,<<INSERT>>
-B22,<<INSERT>>
-B23,<<INSERT>>
-B24,<<INSERT>>
-C21,<<INSERT>>
-C22,<<INSERT>>
-C23,<<INSERT>>
-C24,<<INSERT>>
-D21,<<INSERT>>
-D22,<<INSERT>>
-D23,<<INSERT>>
-D24,<<INSERT>>
-A31,<<INSERT>>
-A32,<<INSERT>>
-B31,<<INSERT>>
-B32,<<INSERT>>
-C31,<<INSERT>>
-C32,<<INSERT>>
-D31,<<INSERT>>
-D32,<<INSERT>>
-Q1,<<INSERT>>
-Q2,<<INSERT>>
-Q3,<<INSERT>>
-Q4,<<INSERT>>
-S1,<<INSERT>>
-S2,<<INSERT>>
-F,<<INSERT>>
+Match,Round,Points,Outcome
+WC,Wild Card,1,<<INSERT>>
+A11,Round 1,1,<<INSERT>>
+A12,Round 1,1,<<INSERT>>
+A13,Round 1,1,<<INSERT>>
+A14,Round 1,1,<<INSERT>>
+A15,Round 1,1,<<INSERT>>
+A16,Round 1,1,<<INSERT>>
+A17,Round 1,1,<<INSERT>>
+A18,Round 1,1,<<INSERT>>
+B11,Round 1,1,<<INSERT>>
+B12,Round 1,1,<<INSERT>>
+B13,Round 1,1,<<INSERT>>
+B14,Round 1,1,<<INSERT>>
+B15,Round 1,1,<<INSERT>>
+B16,Round 1,1,<<INSERT>>
+B17,Round 1,1,<<INSERT>>
+B18,Round 1,1,<<INSERT>>
+C11,Round 1,1,<<INSERT>>
+C12,Round 1,1,<<INSERT>>
+C13,Round 1,1,<<INSERT>>
+C14,Round 1,1,<<INSERT>>
+C15,Round 1,1,<<INSERT>>
+C16,Round 1,1,<<INSERT>>
+C17,Round 1,1,<<INSERT>>
+C18,Round 1,1,<<INSERT>>
+D11,Round 1,1,<<INSERT>>
+D12,Round 1,1,<<INSERT>>
+D13,Round 1,1,<<INSERT>>
+D14,Round 1,1,<<INSERT>>
+D15,Round 1,1,<<INSERT>>
+D16,Round 1,1,<<INSERT>>
+D17,Round 1,1,<<INSERT>>
+D18,Round 1,1,<<INSERT>>
+A21,Round 2,2,<<INSERT>>
+A22,Round 2,2,<<INSERT>>
+A23,Round 2,2,<<INSERT>>
+A24,Round 2,2,<<INSERT>>
+B21,Round 2,2,<<INSERT>>
+B22,Round 2,2,<<INSERT>>
+B23,Round 2,2,<<INSERT>>
+B24,Round 2,2,<<INSERT>>
+C21,Round 2,2,<<INSERT>>
+C22,Round 2,2,<<INSERT>>
+C23,Round 2,2,<<INSERT>>
+C24,Round 2,2,<<INSERT>>
+D21,Round 2,2,<<INSERT>>
+D22,Round 2,2,<<INSERT>>
+D23,Round 2,2,<<INSERT>>
+D24,Round 2,2,<<INSERT>>
+A31,Round 3,3,<<INSERT>>
+A32,Round 3,3,<<INSERT>>
+B31,Round 3,3,<<INSERT>>
+B32,Round 3,3,<<INSERT>>
+C31,Round 3,3,<<INSERT>>
+C32,Round 3,3,<<INSERT>>
+D31,Round 3,3,<<INSERT>>
+D32,Round 3,3,<<INSERT>>
+Q1,Quarter Final,5,<<INSERT>>
+Q2,Quarter Final,5,<<INSERT>>
+Q3,Quarter Final,5,<<INSERT>>
+Q4,Quarter Final,5,<<INSERT>>
+S1,Semi Final,8,<<INSERT>>
+S2,Semi Final,8,<<INSERT>>
+F,Final,13,<<INSERT>>

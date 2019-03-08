@@ -1,6 +1,6 @@
 ##MMM_Scoring
 ##Calculate scores and summarise by round
-##NOTE: Incomplete matches should be labelled "<<INSERt>>" in master brakcet
+##NOTE: Incomplete matches should be labelled "<<INSERT>>" in master brakcet
 
 #Read in dataframe of predictions and results
 MMM_df <- read.csv("../Submissions/MMM2019_PredictionsSummary.csv", stringsAsFactors = F)

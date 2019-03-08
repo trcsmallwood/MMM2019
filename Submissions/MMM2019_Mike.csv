@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Ant Lion
+A11,Ringtail Cat
+A12,Jackrabbit
+A13,Serval
+A14,Stoat
+A15,Klipspringer
+A16,Spinifex Hopping Mouse
+A17,9-Banded Armadillo
+A18,Streaked Tenrec
+B11,Bulldog Bat
+B12,Water Chevrotain
+B13,Beaver
+B14,White-Lipped Peccary
+B15,Crab-Eating Fox
+B16,Lowland Tapir
+B17,Marine Otter
+B18,Vontsira
+C11,Batfly & Gammaproteobacteria
+C12,Aardvark & Aardvark Cucumber
+C13,Clown Fish & Sea Anenome
+C14,Fire Coral & Algae
+C15,Bornean Bat & Pitcher Plant
+C16,Burying Beetles & Phoretic Mites
+C17,Fork-Tailed Drongos & Sociable Weaver
+C18,Ants & Aphids
+D11,Ant Lion
+D12,Small Spotted Cat Shark
+D13,Panther Chameleon
+D14,Tiger Salamander
+D15,Cat Snake
+D16,Bearcat
+D17,Tiger Quoll
+D18,Dandelion
+A21,Ringtail Cat
+A22,Stoat
+A23,Spinifex Hopping Mouse
+A24,9-Banded Armadillo
+B21,Water Chevrotain
+B22,Beaver
+B23,Lowland Tapir
+B24,Marine Otter
+C21,Aardvark & Aardvark Cucumber
+C22,Fire Coral & Algae
+C23,Burying Beetles & Phoretic Mites
+C24,Ants & Aphids
+D21,Ant Lion
+D22,Tiger Salamander
+D23,Cat Snake
+D24,Tiger Quoll
+A31,Stoat
+A32,9-Banded Armadillo
+B31,Beaver
+B32,Marine Otter
+C31,Fire Coral & Algae
+C32,Burying Beetles & Phoretic Mites
+D31,Ant Lion
+D32,Tiger Quoll
+Q1,9-Banded Armadillo
+Q2,Marine Otter
+Q3,Fire Coral & Algae
+Q4,Ant Lion
+S1,9-Banded Armadillo
+S2,Ant Lion
+F,Ant Lion

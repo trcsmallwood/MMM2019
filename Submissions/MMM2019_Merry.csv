@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Tiger Beetle
+A11,Bengal Tiger
+A12,Springhare
+A13,Rock Wallaby
+A14,Stoat
+A15,Klipspringer
+A16,Spinner Dolphin
+A17,9-Banded Armadillo
+A18,Markhor
+B11,Moose
+B12,Water Chevrotain
+B13,Mink
+B14,Rakali
+B15,Moonrat
+B16,Water Oppossum
+B17,Marine Otter
+B18,Manatee
+C11,Zebra & Oxpecker
+C12,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C13,Crab & Sea Turtle
+C14,Wrasse & Moray Eel
+C15,Diana Monkey & Red Colobus
+C16,Banded Mongoose & Warthog
+C17,Fork-Tailed Drongos & Sociable Weaver
+C18,Coyote & Badger
+D11,Sea Lion
+D12,Stonecat
+D13,Panther Chameleon
+D14,Tiger Salamander
+D15,Cat Snake
+D16,Bearcat
+D17,Green Catbird
+D18,Nimravid
+A21,Bengal Tiger
+A22,Stoat
+A23,Klipspringer
+A24,Markhor
+B21,Moose
+B22,Mink
+B23,Moonrat
+B24,Marine Otter
+C21,Zebra & Oxpecker
+C22,Crab & Sea Turtle
+C23,Diana Monkey & Red Colobus
+C24,Coyote & Badger
+D21,Sea Lion
+D22,Panther Chameleon
+D23,Cat Snake
+D24,Green Catbird
+A31,Bengal Tiger
+A32,Klipspringer
+B31,Moose
+B32,Marine Otter
+C31,Zebra & Oxpecker
+C32,Diana Monkey & Red Colobus
+D31,Sea Lion
+D32,Cat Snake
+Q1,Bengal Tiger
+Q2,Moose
+Q3,Diana Monkey & Red Colobus
+Q4,Sea Lion
+S1,Bengal Tiger
+S2,Diana Monkey & Red Colobus
+F,Diana Monkey & Red Colobus

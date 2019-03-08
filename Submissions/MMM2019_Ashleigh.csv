@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Tiger Beetle
+A11,Bengal Tiger
+A12,Springhare
+A13,Rock Wallaby
+A14,Bharal
+A15,Klipspringer
+A16,Spinner Dolphin
+A17,9-Banded Armadillo
+A18,Streaked Tenrec
+B11,Bulldog Bat
+B12,Flat-Headed Cat
+B13,Mink
+B14,White-Lipped Peccary
+B15,Crab-Eating Fox
+B16,Lowland Tapir
+B17,Aquatic Genet
+B18,Manatee
+C11,Zebra & Oxpecker
+C12,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C13,Clown Fish & Sea Anenome
+C14,Wrasse & Moray Eel
+C15,Diana Monkey & Red Colobus
+C16,Banded Mongoose & Warthog
+C17,Fork-Tailed Drongos & Sociable Weaver
+C18,Ants & Aphids
+D11,Sea Lion
+D12,Stonecat
+D13,Tiger Owl
+D14,Tiger Salamander
+D15,Lion-Tailed Macaque
+D16,Bearcat
+D17,Tiger Quoll
+D18,Nimravid
+A21,Bengal Tiger
+A22,Rock Wallaby
+A23,Spinner Dolphin
+A24,9-Banded Armadillo
+B21,Bulldog Bat
+B22,White-Lipped Peccary
+B23,Lowland Tapir
+B24,Manatee
+C21,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C22,Wrasse & Moray Eel
+C23,Banded Mongoose & Warthog
+C24,Fork-Tailed Drongos & Sociable Weaver
+D21,Stonecat
+D22,Tiger Owl
+D23,Lion-Tailed Macaque
+D24,Nimravid
+A31,Bengal Tiger
+A32,9-Banded Armadillo
+B31,Bulldog Bat
+B32,Manatee
+C31,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C32,Banded Mongoose & Warthog
+D31,Tiger Owl
+D32,Nimravid
+Q1,Bengal Tiger
+Q2,Manatee
+Q3,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+Q4,Tiger Owl
+S1,Manatee
+S2,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+F,Manatee

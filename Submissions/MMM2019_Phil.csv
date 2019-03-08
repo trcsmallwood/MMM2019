@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Ant Lion
+A11,Bengal Tiger
+A12,Jackrabbit
+A13,Serval
+A14,Bharal
+A15,Impala
+A16,Spinner Dolphin
+A17,9-Banded Armadillo
+A18,Markhor
+B11,Moose
+B12,Water Chevrotain
+B13,Mink
+B14,White-Lipped Peccary
+B15,Crab-Eating Fox
+B16,Lowland Tapir
+B17,Marine Otter
+B18,Manatee
+C11,Zebra & Oxpecker
+C12,Aardvark & Aardvark Cucumber
+C13,Crab & Sea Turtle
+C14,Wrasse & Moray Eel
+C15,Diana Monkey & Red Colobus
+C16,Banded Mongoose & Warthog
+C17,Wattled Jacana & Capybara
+C18,Coyote & Badger
+D11,Sea Lion
+D12,Small Spotted Cat Shark
+D13,Tiger Owl
+D14,Fisher Cat
+D15,Lion-Tailed Macaque
+D16,Bearcat
+D17,Tiger Quoll
+D18,Nimravid
+A21,Bengal Tiger
+A22,Bharal
+A23,Spinner Dolphin
+A24,Markhor
+B21,Moose
+B22,White-Lipped Peccary
+B23,Lowland Tapir
+B24,Manatee
+C21,Zebra & Oxpecker
+C22,Crab & Sea Turtle
+C23,Diana Monkey & Red Colobus
+C24,Coyote & Badger
+D21,Sea Lion
+D22,Fisher Cat
+D23,Bearcat
+D24,Nimravid
+A31,Bengal Tiger
+A32,Markhor
+B31,Moose
+B32,Lowland Tapir
+C31,Zebra & Oxpecker
+C32,Coyote & Badger
+D31,Sea Lion
+D32,Nimravid
+Q1,Bengal Tiger
+Q2,Moose
+Q3,Coyote & Badger
+Q4,Nimravid
+S1,Bengal Tiger
+S2,Nimravid
+F,Nimravid
