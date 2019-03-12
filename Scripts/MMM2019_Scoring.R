@@ -49,9 +49,14 @@ names(points_df)[-c(1:2)] <- participants
 names(round_correct_df)[-c(1)] <- participants
 names(round_points_df)[-c(1)] <- participants
 
-#Calculate cumulative points by match and by round
-cum_match_points <- data.frame("MatchNo" = seq(1, length(MMM_df$Match)), apply(points_df[,-c(1,2)],2,cumsum))
-cum_round_points <- data.frame("Round" = round_points_df$Round, apply(round_points_df[,-1],2,cumsum))
+#If multiple matchs have been completed, calculate cumulative points by match and by round
+if(nrow(points_df) > 1){
+  cum_match_points <- data.frame("MatchNo" = seq(1, length(MMM_df$Match)), apply(points_df[,-c(1,2)],2,cumsum))
+  cum_round_points <- data.frame("Round" = round_points_df$Round, apply(round_points_df[,-1],2,cumsum))
+}else{ #Otherwise adapt point and round dataframes
+  cum_match_points <- data.frame("MatchNo" = 1, points_df[,-c(1,2)])
+  cum_round_points <- round_points_df
+}
 
 #Output dataframes into relative dir
 write.csv(correct_df, "../Results/MMM2019_MatchCorrectSummary.csv", row.names = F)

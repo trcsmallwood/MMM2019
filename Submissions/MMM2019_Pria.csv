@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Tiger Beetle
+A11,Bengal Tiger
+A12,Jackrabbit
+A13,Serval
+A14,Stoat
+A15,Klipspringer
+A16,Spinner Dolphin
+A17,Sifaka
+A18,Streaked Tenrec
+B11,Moose
+B12,Flat-Headed Cat
+B13,Mink
+B14,Rakali
+B15,Crab-Eating Fox
+B16,Water Oppossum
+B17,Marine Otter
+B18,Vontsira
+C11,Batfly & Gammaproteobacteria
+C12,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C13,Crab & Sea Turtle
+C14,Wrasse & Moray Eel
+C15,Bornean Bat & Pitcher Plant
+C16,Burying Beetles & Phoretic Mites
+C17,Fork-Tailed Drongos & Sociable Weaver
+C18,Ants & Aphids
+D11,Tiger Beetle
+D12,Stonecat
+D13,Tiger Owl
+D14,Fisher Cat
+D15,Cat Snake
+D16,Bearcat
+D17,Green Catbird
+D18,Dandelion
+A21,Bengal Tiger
+A22,Serval
+A23,Spinner Dolphin
+A24,Sifaka
+B21,Flat-Headed Cat
+B22,Mink
+B23,Water Oppossum
+B24,Marine Otter
+C21,Batfly & Gammaproteobacteria
+C22,Crab & Sea Turtle
+C23,Burying Beetles & Phoretic Mites
+C24,Ants & Aphids
+D21,Tiger Beetle
+D22,Tiger Owl
+D23,Bearcat
+D24,Dandelion
+A31,Bengal Tiger
+A32,Spinner Dolphin
+B31,Flat-Headed Cat
+B32,Marine Otter
+C31,Crab & Sea Turtle
+C32,Ants & Aphids
+D31,Tiger Owl
+D32,Dandelion
+Q1,Bengal Tiger
+Q2,Marine Otter
+Q3,Ants & Aphids
+Q4,Dandelion
+S1,Bengal Tiger
+S2,Dandelion
+F,Dandelion

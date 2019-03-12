@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Ant Lion
+A11,Bengal Tiger
+A12,Springhare
+A13,Rock Wallaby
+A14,Stoat
+A15,Klipspringer
+A16,Spinner Dolphin
+A17,Sifaka
+A18,Markhor
+B11,Moose
+B12,Flat-Headed Cat
+B13,Beaver
+B14,Rakali
+B15,Crab-Eating Fox
+B16,Lowland Tapir
+B17,Marine Otter
+B18,Vontsira
+C11,Batfly & Gammaproteobacteria
+C12,Aardvark & Aardvark Cucumber
+C13,Crab & Sea Turtle
+C14,Fire Coral & Algae
+C15,Bornean Bat & Pitcher Plant
+C16,Burying Beetles & Phoretic Mites
+C17,Fork-Tailed Drongos & Sociable Weaver
+C18,Ants & Aphids
+D11,Ant Lion
+D12,Small Spotted Cat Shark
+D13,Tiger Owl
+D14,Fisher Cat
+D15,Cat Snake
+D16,Bearcat
+D17,Green Catbird
+D18,Nimravid
+A21,Springhare
+A22,Stoat
+A23,Klipspringer
+A24,Markhor
+B21,Flat-Headed Cat
+B22,Beaver
+B23,Crab-Eating Fox
+B24,Vontsira
+C21,Aardvark & Aardvark Cucumber
+C22,Crab & Sea Turtle
+C23,Bornean Bat & Pitcher Plant
+C24,Ants & Aphids
+D21,Ant Lion
+D22,Fisher Cat
+D23,Bearcat
+D24,Nimravid
+A31,Springhare
+A32,Klipspringer
+B31,Beaver
+B32,Vontsira
+C31,Aardvark & Aardvark Cucumber
+C32,Ants & Aphids
+D31,Ant Lion
+D32,Bearcat
+Q1,Springhare
+Q2,Vontsira
+Q3,Aardvark & Aardvark Cucumber
+Q4,Bearcat
+S1,Vontsira
+S2,Aardvark & Aardvark Cucumber
+F,Vontsira

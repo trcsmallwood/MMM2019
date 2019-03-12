@@ -1,7 +1,7 @@
 Match,Prediction
 WC,Tiger Beetle
 A11,Bengal Tiger
-A12,Jackrabbit
+A12,Springhare
 A13,Serval
 A14,Bharal
 A15,Impala
@@ -16,7 +16,7 @@ B15,Crab-Eating Fox
 B16,Lowland Tapir
 B17,Marine Otter
 B18,Manatee
-C11,Zebra & Oxpecker
+C11,Batfly & Gammaproteobacteria
 C12,Aardvark & Aardvark Cucumber
 C13,Crab & Sea Turtle
 C14,Wrasse & Moray Eel
@@ -33,33 +33,33 @@ D16,Bearcat
 D17,Tiger Quoll
 D18,Nimravid
 A21,Bengal Tiger
-A22,Bharal
+A22,Serval
 A23,Spinner Dolphin
 A24,Markhor
 B21,Moose
 B22,White-Lipped Peccary
 B23,Lowland Tapir
-B24,Marine Otter
-C21,Zebra & Oxpecker
+B24,Manatee
+C21,Batfly & Gammaproteobacteria
 C22,Crab & Sea Turtle
 C23,Banded Mongoose & Warthog
 C24,Coyote & Badger
 D21,Sea Lion
-D22,Tiger Owl
+D22,Fisher Cat
 D23,Bearcat
 D24,Nimravid
 A31,Bengal Tiger
 A32,Markhor
 B31,Moose
-B32,Lowland Tapir
-C31,Zebra & Oxpecker
-C32,Coyote & Badger
-D31,Tiger Owl
+B32,Manatee
+C31,Crab & Sea Turtle
+C32,Banded Mongoose & Warthog
+D31,Sea Lion
 D32,Nimravid
 Q1,Bengal Tiger
 Q2,Moose
-Q3,Zebra & Oxpecker
-Q4,Nimravid
+Q3,Banded Mongoose & Warthog
+Q4,Sea Lion
 S1,Bengal Tiger
-S2,Nimravid
+S2,Sea Lion
 F,Bengal Tiger

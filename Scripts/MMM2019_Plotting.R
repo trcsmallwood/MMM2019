@@ -39,7 +39,7 @@ ggplot(cum_match_points_plot_df, aes(x = MatchNo, y = Points, col = Participant,
             aes(x = MatchNo, y = Points, shape = Participant)) +
   coord_cartesian(clip = "off") +
   theme_bw() + #Simple balck and white base theme
-  guides(col = guide_legend(nrow = 2, byrow = T)) + #Control number of rows in lengend
+  guides(col = guide_legend(nrow = 3, byrow = T)) + #Control number of rows in lengend
   theme(axis.ticks.length = unit(-0.2, "cm"), #Ticks marks inside
         axis.text.x = element_text(size = 12, margin=margin(10,10,10,10,"pt")), #x axis text size and spacing
         axis.text.y = element_text(size = 12, margin=margin(10,10,10,10,"pt")), #y axis text size and spacing
@@ -81,7 +81,7 @@ ggplot(cum_round_points_plot_df, aes(x = Round, y = Points, col = Participant, g
             hjust = -0.2, show.legend = F) +
   coord_cartesian(clip = "off") +
   theme_bw() + #Simple balck and white base theme
-  guides(col = guide_legend(nrow = 2, byrow = T)) + #Control number of rows in lengend
+  guides(col = guide_legend(nrow = 3, byrow = T)) + #Control number of rows in lengend
   theme(axis.ticks.length = unit(-0.2, "cm"), #Ticks marks inside
         axis.text.x = element_text(size = 12, margin=margin(10,10,10,10,"pt")), #x axis text size and spacing
         axis.text.y = element_text(size = 12, margin=margin(10,10,10,10,"pt")), #y axis text size and spacing
@@ -90,7 +90,7 @@ ggplot(cum_round_points_plot_df, aes(x = Round, y = Points, col = Participant, g
         axis.title.x = element_text(size = 14, margin=margin(5,5,5,5,"pt")), axis.title.y = element_text(size = 14, margin=margin(5,5,5,5,"pt")), #Axis titles size and space=ing
         panel.grid.major = element_blank(), panel.grid.minor = element_blank(), #No grid lines
         legend.position = "bottom", #Legend postion
-        plot.margin = unit(c(0.5,1,0.1,0.1), "cm"), #Space around the outside, including space for the ends of the axes
+        plot.margin = unit(c(0.5,2,0.1,0.1), "cm"), #Space around the outside, including space for the ends of the axes
         legend.title = element_text(size = 14), legend.text = element_text(size = 12)) + #Legend title and text size
   scale_y_continuous("Cumulative Points", limits = c(0, ceiling(max(cum_round_points_plot_df$Points)*1.1)), expand = c(0,0)) + #y axis title and limits. Max set to 10% more than the highest score. Max points available is 138
   scale_x_discrete("Round", drop = F) + #x axis title and include all rounds, not just those with scores

@@ -7,8 +7,17 @@ library(ggplot2)
 #Read in dataframe of predictions
 MMM_df <- read.csv("../Submissions/MMM2019_PredictionsSummary.csv", stringsAsFactors = F)
 
+#Load in dataframe of participants
+participants_df <- read.csv("../Submissions/Participants.csv", stringsAsFactors = F)
+
+#Remove those who haven't submitted (or paid)
+participants_df <- participants_df[which(participants_df$Submitted == "Y"),]# & participants_df$Paid == "Y")]
+
 #Extract names of participants
-participants <- names(MMM_df)[-c(1:4)]
+participants <- participants_df$Participants
+
+#Extract plot colours for participants
+participant_cols <- participants_df$PreferredColour
 
 #Create a matrix for unweighted pairwise comparisons of predictions with named columns and rows 
 sim_mat <- matrix(NA, nrow = length(participants), ncol = length(participants))
@@ -57,8 +66,8 @@ ggplot(sim_mat_plot, aes(x = Participant1, y = ordered(sim_mat_plot$Participant2
             color = "white", size = 4) + #Similarity score to 2 sig fig, exclude NAs
   theme_bw() + #Simple balck and white base theme
   theme(axis.ticks.length = unit(0, "cm"), #Ticks marks inside
-        axis.text.x = element_text(size = 12, margin=margin(10,10,10,10,"pt"), colour = "black", angle = 45, hjust = 0), #x axis text size and spacing, rotate 45 degrees
-        axis.text.y = element_text(size = 12, margin=margin(10,10,10,10,"pt"), colour = "black"), #y axis text size and spacing
+        axis.text.x = element_text(size = 12, margin=margin(10,10,10,10,"pt"), colour = participant_cols, angle = 45, hjust = 0), #x axis text size and spacing, rotate 45 degrees
+        axis.text.y = element_text(size = 12, margin=margin(10,10,10,10,"pt"), colour = rev(participant_cols)), #y axis text size and spacing
         panel.border = element_blank(), #No border
         axis.line.x = element_blank(), axis.line.y = element_blank(), #Axes colours and thickness
         axis.title.x = element_text(size = 14, margin=margin(5,5,5,5,"pt")), axis.title.y = element_text(size = 14, margin=margin(5,5,5,5,"pt")), #Axis titles size and space=ing
@@ -75,9 +84,9 @@ ggplot(sim_mat_plot, aes(x = Participant1, y = ordered(sim_mat_plot$Participant2
 dev.off()
 
 #Create output .pdf in relative dir
-pdf(file = "../Plots/MMM2019_SimilarityPoints.pdf", width=11.69, height=8.27)
+pdf(file = "../Plots/MMM2019_SimilarityRoundWeighted.pdf", width=11.69, height=8.27)
 
-#Plot point weighted similarity of predictions in grid
+#Plot round-weighted similarity of predictions in grid
 ggplot(sim_points_mat_plot, aes(x = Participant1, y = ordered(sim_mat_plot$Participant2, levels = rev(participants)), fill = Similarity)) +
   geom_tile() + #Grid layout
   geom_text(aes(Participant1, ordered(sim_mat_plot$Participant2, levels = rev(participants)),
@@ -85,8 +94,8 @@ ggplot(sim_points_mat_plot, aes(x = Participant1, y = ordered(sim_mat_plot$Parti
             color = "white", size = 4) + #Similarity score to 2 sig fig, exclude NAs
   theme_bw() + #Simple balck and white base theme
   theme(axis.ticks.length = unit(0, "cm"), #Ticks marks inside
-        axis.text.x = element_text(size = 12, margin=margin(10,10,10,10,"pt"), colour = "black", angle = 45, hjust = 0), #x axis text size and spacing, rotate 45 degrees
-        axis.text.y = element_text(size = 12, margin=margin(10,10,10,10,"pt"), colour = "black"), #y axis text size and spacing
+        axis.text.x = element_text(size = 12, margin=margin(10,10,10,10,"pt"), colour = participant_cols, angle = 45, hjust = 0), #x axis text size and spacing, rotate 45 degrees
+        axis.text.y = element_text(size = 12, margin=margin(10,10,10,10,"pt"), colour = rev(participant_cols)), #y axis text size and spacing
         panel.border = element_blank(), #No border
         axis.line.x = element_blank(), axis.line.y = element_blank(), #Axes colours and thickness
         axis.title.x = element_text(size = 14, margin=margin(5,5,5,5,"pt")), axis.title.y = element_text(size = 14, margin=margin(5,5,5,5,"pt")), #Axis titles size and space=ing
@@ -94,7 +103,7 @@ ggplot(sim_points_mat_plot, aes(x = Participant1, y = ordered(sim_mat_plot$Parti
         legend.position = "right", #Legend postion
         plot.margin = unit(c(0.5,0.2,0.1,0.1), "cm"), #Space around the outside, including space for the ends of the axes
         legend.title = element_text(size = 14), legend.text = element_text(size = 12)) + #Legend title and text size
-  scale_fill_gradientn(expr("Points-\nWeighted\nSimilarity"), colours = c("gold", "orange", "orangered", "red", "darkred"), limits = c(0,0.9), breaks = seq(0,1,0.2)) + #Scale from blue to red and from 0.1 to 0.9
+  scale_fill_gradientn(expr("Round-\nWeighted\nSimilarity"), colours = c("gold", "orange", "orangered", "red", "darkred"), limits = c(0,0.9), breaks = seq(0,1,0.2)) + #Scale from blue to red and from 0.1 to 0.9
   scale_x_discrete(position = "top", name = "") + #x axis at top and without name
   scale_y_discrete(name = "") + #y axis no name
   NULL

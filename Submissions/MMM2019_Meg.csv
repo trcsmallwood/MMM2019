@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Tiger Beetle
+A11,Bengal Tiger
+A12,Jackrabbit
+A13,Rock Wallaby
+A14,Stoat
+A15,Klipspringer
+A16,Spinner Dolphin
+A17,Sifaka
+A18,Streaked Tenrec
+B11,Bulldog Bat
+B12,Flat-Headed Cat
+B13,Mink
+B14,Rakali
+B15,Crab-Eating Fox
+B16,Lowland Tapir
+B17,Aquatic Genet
+B18,Manatee
+C11,Batfly & Gammaproteobacteria
+C12,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C13,Crab & Sea Turtle
+C14,Wrasse & Moray Eel
+C15,Bornean Bat & Pitcher Plant
+C16,Banded Mongoose & Warthog
+C17,Wattled Jacana & Capybara
+C18,Coyote & Badger
+D11,Sea Lion
+D12,Small Spotted Cat Shark
+D13,Tiger Owl
+D14,Tiger Salamander
+D15,Cat Snake
+D16,Bearcat
+D17,Tiger Quoll
+D18,Nimravid
+A21,Bengal Tiger
+A22,Rock Wallaby
+A23,Klipspringer
+A24,Sifaka
+B21,Bulldog Bat
+B22,Mink
+B23,Lowland Tapir
+B24,Manatee
+C21,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C22,Crab & Sea Turtle
+C23,Bornean Bat & Pitcher Plant
+C24,Wattled Jacana & Capybara
+D21,Sea Lion
+D22,Tiger Owl
+D23,Cat Snake
+D24,Nimravid
+A31,Bengal Tiger
+A32,Klipspringer
+B31,Mink
+B32,Lowland Tapir
+C31,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C32,Bornean Bat & Pitcher Plant
+D31,Tiger Owl
+D32,Nimravid
+Q1,Bengal Tiger
+Q2,Lowland Tapir
+Q3,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+Q4,Nimravid
+S1,Lowland Tapir
+S2,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+F,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
