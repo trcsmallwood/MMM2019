@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Ant Lion
+A11,Ringtail Cat
+A12,Springhare
+A13,Serval
+A14,Bharal
+A15,Impala
+A16,Spinifex Hopping Mouse
+A17,Sifaka
+A18,Markhor
+B11,Moose
+B12,Flat-Headed Cat
+B13,Beaver
+B14,White-Lipped Peccary
+B15,Moonrat
+B16,Lowland Tapir
+B17,Aquatic Genet
+B18,Manatee
+C11,Batfly & Gammaproteobacteria
+C12,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C13,Clown Fish & Sea Anenome
+C14,Wrasse & Moray Eel
+C15,Bornean Bat & Pitcher Plant
+C16,Banded Mongoose & Warthog
+C17,Fork-Tailed Drongos & Sociable Weaver
+C18,Coyote & Badger
+D11,Ant Lion
+D12,Stonecat
+D13,Panther Chameleon
+D14,Tiger Salamander
+D15,Cat Snake
+D16,Bearcat
+D17,Tiger Quoll
+D18,Dandelion
+A21,Springhare
+A22,Serval
+A23,Spinifex Hopping Mouse
+A24,Sifaka
+B21,Flat-Headed Cat
+B22,Beaver
+B23,Moonrat
+B24,Manatee
+C21,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C22,Wrasse & Moray Eel
+C23,Banded Mongoose & Warthog
+C24,Fork-Tailed Drongos & Sociable Weaver
+D21,Stonecat
+D22,Panther Chameleon
+D23,Bearcat
+D24,Dandelion
+A31,Serval
+A32,Sifaka
+B31,Beaver
+B32,Moonrat
+C31,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C32,Fork-Tailed Drongos & Sociable Weaver
+D31,Panther Chameleon
+D32,Bearcat
+Q1,Serval
+Q2,Moonrat
+Q3,Fork-Tailed Drongos & Sociable Weaver
+Q4,Bearcat
+S1,Serval
+S2,Bearcat
+F,Serval

@@ -1,2 +1,10 @@
-"Match","Round","Random","Tom","Dani","Hellen","Isla","Mike","Jennie","Ashleigh","Phil","Fiona","Merry","Dan","Linda","Ellie","Richard","Henny","Anthony","Nicole","Pria","Meg"
-"WC","Wild Card",0,0,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,0,0,0
+"Match","Round","Random","Tom","Dani","Hellen","Isla","Mike","Jennie","Ashleigh","Phil","Fiona","Merry","Dan","Linda","Ellie","Richard","Henny","Anthony","Nicole","Pria","Meg","Fran","Rikki"
+"WC","Wild Card",0,0,0,1,1,1,1,0,1,1,0,1,1,1,1,1,1,0,0,0,1,1
+"A11","Round 1",1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0
+"A12","Round 1",0,0,1,1,0,0,1,1,0,1,1,1,0,0,0,1,1,1,0,0,1,1
+"A13","Round 1",0,0,0,0,1,0,0,1,0,0,1,1,0,0,0,0,1,0,0,1,0,0
+"A14","Round 1",1,1,1,1,1,0,0,1,1,0,0,1,0,0,1,1,0,1,0,0,1,1
+"A15","Round 1",1,1,1,0,0,0,1,0,1,1,0,0,1,1,1,1,0,1,0,0,1,1
+"A16","Round 1",0,1,1,1,1,0,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,0
+"A17","Round 1",1,0,1,0,1,1,0,1,1,0,1,1,1,0,0,0,0,0,0,0,1,0
+"A18","Round 1",0,0,0,0,0,1,0,1,0,0,0,0,0,1,0,0,0,0,1,1,0,0

@@ -1,0 +1,65 @@
+Match,Prediction
+WC,Ant Lion
+A11,Bengal Tiger
+A12,Springhare
+A13,Serval
+A14,Bharal
+A15,Impala
+A16,Spinner Dolphin
+A17,9-Banded Armadillo
+A18,Markhor
+B11,Moose
+B12,Flat-Headed Cat
+B13,Beaver
+B14,Rakali
+B15,Crab-Eating Fox
+B16,Water Oppossum
+B17,Aquatic Genet
+B18,Manatee
+C11,Batfly & Gammaproteobacteria
+C12,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C13,Crab & Sea Turtle
+C14,Wrasse & Moray Eel
+C15,Diana Monkey & Red Colobus
+C16,Banded Mongoose & Warthog
+C17,Fork-Tailed Drongos & Sociable Weaver
+C18,Coyote & Badger
+D11,Sea Lion
+D12,Small Spotted Cat Shark
+D13,Tiger Owl
+D14,Fisher Cat
+D15,Cat Snake
+D16,Bearcat
+D17,Tiger Quoll
+D18,Dandelion
+A21,Bengal Tiger
+A22,Serval
+A23,Impala
+A24,Markhor
+B21,Moose
+B22,Beaver
+B23,Crab-Eating Fox
+B24,Aquatic Genet
+C21,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C22,Wrasse & Moray Eel
+C23,Diana Monkey & Red Colobus
+C24,Coyote & Badger
+D21,Sea Lion
+D22,Tiger Owl
+D23,Cat Snake
+D24,Tiger Quoll
+A31,Bengal Tiger
+A32,Markhor
+B31,Moose
+B32,Crab-Eating Fox
+C31,Goeldi’s Monkey & Saddleback Tamarin & White-Lipped Tamarin
+C32,Coyote & Badger
+D31,Tiger Owl
+D32,Cat Snake
+Q1,Markhor
+Q2,Moose
+Q3,Coyote & Badger
+Q4,Tiger Owl
+S1,Moose
+S2,Coyote & Badger
+F,Moose
