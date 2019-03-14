@@ -58,6 +58,12 @@ if(nrow(points_df) > 1){
   cum_round_points <- round_points_df
 }
 
+#Sort participants by number of total number of points in the last row of cumulative points dataframe
+standings <- sort(cum_match_points[nrow(cum_match_points),-1], decreasing = T)
+
+#Put standings into dataframe along with ranking with the highest points ranked 1 and ties recieving the same ranking
+standings_df <- data.frame("Participant" = names(standings), "Points" = as.numeric(standings), "Standings" = rank(-standings, ties.method = "min"))
+
 #Output dataframes into relative dir
 write.csv(correct_df, "../Results/MMM2019_MatchCorrectSummary.csv", row.names = F)
 write.csv(points_df, "../Results/MMM2019_MatchPointsSummary.csv", row.names = F)
@@ -65,3 +71,4 @@ write.csv(round_correct_df, "../Results/MMM2019_RoundCorrectSummary.csv", row.na
 write.csv(round_points_df, "../Results/MMM2019_RoundPointsSummary.csv", row.names = F)
 write.csv(cum_match_points, "../Results/MMM2019_CumulativeMatchPoints.csv", row.names = F)
 write.csv(cum_round_points, "../Results/MMM2019_CumulativeRoundPoints.csv", row.names = F)
+write.csv(standings_df, "../Results/MMM2019_Standings.csv", row.names = F)
