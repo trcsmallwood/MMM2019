@@ -47,6 +47,27 @@ for(p in 1:length(participants)){
   }
 }
 
+#Create vectors for mean similarities (except Random)
+mean_sim <- rep(NA, length(participants[-1]))
+mean_sim_points <- rep(NA, length(participants[-1]))
+
+#Calculate mean similarity (unweighted and weighted) for each participant
+for(p in 1:length(participants[-1])){
+  mean_sim[p] <- mean(sim_mat[p+1,], na.rm = T)
+  mean_sim_points[p] <- mean(sim_points_mat[p+1,], na.rm = T)
+}
+
+#Combine into data frame
+sim_df <- data.frame("Participants" = participants[-1],
+                     "Similarity" = mean_sim,
+                     "Round-Weighted Similarity" = mean_sim_points)
+
+#Order by weighted similarity
+sim_df <- sim_df[order(sim_df$Round.Weighted.Similarity, decreasing = T),]
+
+#Output as a .csv file
+write.csv(sim_df, "../Results/MMM2019_MeanSimilarity.csv", row.names = F)
+
 #Reshape into dataframe for ploting and name columns
 sim_mat_plot <- melt(sim_mat)
 names(sim_mat_plot) <- c("Participant1", "Participant2", "Similarity")
